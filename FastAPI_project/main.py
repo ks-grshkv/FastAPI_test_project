@@ -7,7 +7,8 @@ app = FastAPI()
 @app.get('/')
 def root():
     return {'example': 'Hi there!',
-            'data': 0}
+            'data': 0
+            }
 
 
 @app.get('/random')
